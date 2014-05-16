@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsyncImageDownload</string>
+    <string name="empty">Loading images...</string>
+    <string name="noTasks">No Tasks</string>
+    <string name="random">Random</string>
+    <string name="correct">Correct</string>
+</resources>
