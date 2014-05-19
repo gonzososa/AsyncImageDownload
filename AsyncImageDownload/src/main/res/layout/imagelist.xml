@@ -10,7 +10,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:checkedButton="@+id/noTasksButton">
+            android:checkedButton="@+id/correctButton">
 
             <RadioButton
                 android:id="@+id/noTasksButton"
