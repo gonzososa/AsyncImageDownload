@@ -118,7 +118,7 @@ public class ImageDownloader {
                 InputStream inputStream = null;
                 try {
                     inputStream = entity.getContent ();
-                    return scaleBitmap (200, 200, BitmapFactory.decodeStream (new FlushedInputStream (inputStream)));
+                    return scaleBitmap (80, 80, BitmapFactory.decodeStream (new FlushedInputStream (inputStream)));
                 } finally {
                     if (inputStream != null) {
                         inputStream.close ();
